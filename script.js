@@ -27,8 +27,10 @@ const pwa = "muthuraj@123"
 const userName = []
 const passWord = []
 const btn = document.getElementById('button')
-btn.addEventListener('click",submit)
+btn.addEventListener('click',submit)
 function submit(){
-userName.push(document.getElementById('username'))
-passWord.push(document.getElementById('password'))
+userName.push(document.getElementById('username').value)
+passWord.push(document.getElementById('password').value)
+/*  console.log(userName)
+  console.log(passWord) */
 }
